@@ -66,6 +66,7 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\MyData\Materials\*.*" />
     <AndroidAsset Include="Assets\MyData\Textures\*.*" />
+    <AndroidAsset Include="Assets\MyData\Fonts\OLDENGL.TTF" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
