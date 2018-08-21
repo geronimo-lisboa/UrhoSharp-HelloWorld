@@ -80,7 +80,9 @@
       <Name>GameTest</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Assets\MyData\Models\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\UrhoSharp.1.8.51\build\MonoAndroid\UrhoSharp.targets" Condition="Exists('..\..\packages\UrhoSharp.1.8.51\build\MonoAndroid\UrhoSharp.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

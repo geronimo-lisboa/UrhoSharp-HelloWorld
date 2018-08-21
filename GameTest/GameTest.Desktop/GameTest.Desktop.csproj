@@ -48,6 +48,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MyData\Materials\Material _25.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MyData\Textures\EYE.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="App.config" />
     <Content Include="MyData\Materials\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -58,6 +64,11 @@
     <None Include="MyData\Fonts\OLDENGL.TTF">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="MyData\Models\Box.mdl" />
+    <None Include="MyData\Models\MyCube.mdl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="MyData\Models\Plane.mdl" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

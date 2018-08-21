@@ -1,0 +1,6 @@
+<material>
+	<technique name="Techniques/Diff.xml"/>
+	<texture name="Textures/EYE.PNG" unit="diffuse"/>
+	<parameter name="MatDiffColor" value="0.467451 0.467451 0.467451 1"/>
+	<parameter name="MatSpecColor" value="0.44902 0.44902 0.44902 50"/>
+</material>
